@@ -18,8 +18,6 @@ public class OperationEx3 {
 		System.out.println(num3 << 2); // 10, 2의 2승을 곱한 값과 동일
 		System.out.println(num3 << 3); // 10, 2의 3승을 곱한 값과 동일
 		System.out.println(num3 <<= 1); // 복합 대입 연산자를 이용해 num3값을 바꿀 수 있음
-		System.out.println(num3);
-		
-		
+		System.out.println(num3);	
 	}
 }
