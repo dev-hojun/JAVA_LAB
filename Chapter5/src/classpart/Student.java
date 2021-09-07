@@ -11,4 +11,5 @@ public class Student {
 		System.out.println(studentName + "," + address); // <- ¸Ş¼­µå
 	}
 	
+	
 }
