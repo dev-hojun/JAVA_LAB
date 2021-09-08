@@ -7,9 +7,9 @@ public class Student {
 	int grade; // 정수
 	String address; // 문자열
 	
-	public Student() {}
+	public Student() {} // 디폴트 생성자
 	
-	public Student(int id, String name) { // Student가 생성될 때 두 개의 매개변수를 전달받아 생성
+	public Student(int id, String name) { // Student가 생성될 때 두 개의 매개변수를 전달받는 생성자
 		studentID = id;
 		studentName = name;
 	}
