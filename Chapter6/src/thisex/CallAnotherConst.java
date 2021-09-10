@@ -26,7 +26,7 @@ public class CallAnotherConst {
 		Person p1 = new Person();
 		System.out.println(p1.name); // 이름없음 출력
 		
-		System.out.println(p1.returnSelf());
+		System.out.println(p1.returnSelf()); // 주소값 출력
 	}
 
 }
