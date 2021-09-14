@@ -18,7 +18,7 @@ public class Student {
 		i++;
 		System.out.println(i);
 		
-		studentName = "홍길동"; // 인스턴스 변수, 멤버변수, 유효될 때 생성되는 변수
+		// studentName = "홍길동"; // 인스턴스 변수, 멤버변수, 유효될 때 생성되는 변수, static 메서드에서 인스턴스 변수를 사용할 수 없음
 		
 		return serialNum; // static 변수, 클래스 변수
 	}
