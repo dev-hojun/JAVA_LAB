@@ -7,7 +7,7 @@ public class PrimeNumber {
 		primeNum[1] = true;
 		
 		for(int i=2; i<=50; i++) {
-			for(int j=2; i*j<=51; j++) {
+			for(int j=2; i*j<=50; j++) {
 				primeNum[i*j] = true;
 			}
 		}
